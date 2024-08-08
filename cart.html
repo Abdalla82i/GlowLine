@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <title>Buying page</title>
+    </head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li class="logo"><a href="/homepage.html"><img src="/imgs/logo_blue.png" alt="My Store Logo"></a></li>
+            <li><a href="/homepage.html">Home</a></li>
+            <li><a href="/aboutus.html">About</a></li>
+            <li><a href="/contactus.html">Contact us</a></li>
+            <li><a href="/buying.html">Products</a></li>
+            <li><a href="/cart.html"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                Cart <span id="cart-count">(0)</span></a></li>
+        </ul>
+    </div>
+    <div class="container-box">
+        <h2>Your Cart</h2>
+        <div id="cart-list"></div>
+        <div id="cart-total"></div>
+        <button onclick="checkout()">Checkout</button>
+    </div>
+    <script src="demo2.js"></script>
+</body>
+</html>

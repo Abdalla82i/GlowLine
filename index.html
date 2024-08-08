@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="login_form_container">
+        <div class="login_form">
+            <form id="loginForm" action="homepage.html" onsubmit="return validateForm()">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+                <div class="error" id="usernameError">Username must be more than 3 characters</div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <div class="error" id="emailError"></div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <div class="error" id="passwordError">Password must start with a capital letter and be more than 8 characters</div>
+                <label for="confirm">Confirm Password</label>
+                <input type="password" name="confirm_password" id="confirm">
+                <div class="error" id="confirmError">Passwords do not match</div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="/demo.js"></script>
+</body>
+</html>

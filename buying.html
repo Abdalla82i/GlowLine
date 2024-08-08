@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Buying page</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li class="logo"><a href="/homepage.html"><img src="/imgs/logo_blue.png" alt="My Store Logo"></a></li>
+            <li><a href="/homepage.html">Home</a></li>
+            <li><a href="/aboutus.html">About</a></li>
+            <li><a href="/contactus.html">Contact us</a></li>
+            <li><a href="/buying.html">Products</a></li>
+            <li><a href="/cart.html"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                Cart <span id="cart-count">(0)</span></a></li>
+        </ul>
+    </div>
+    <div class="container-box">
+        <div class="category-button" id="menBtn">
+            <img src="/imgs/redjacket.jpeg" alt="Men Icon">
+            <h3>Men</h3>
+            <button>Show Men Category</button>
+        </div> 
+        <div class="categories">
+            <div id="menCategory" class="category">
+                <h2>Men's Category</h2>
+                <div class="product">
+                    <img src="/imgs/hoodie_.jpg" alt="cat1">
+                    <p>CARWORNIC Men's Hoodies Pullover Soft Hooded Sweatshirts Long Sleeve Casual Hoodies with Zipper Pocket</p>
+                    <p><b>45$</b></p>
+                    <button onclick="addToCart(1)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/greyhoodie_.jpg" alt="cat2">
+                    <p>Keasmto Mens Hoodies Pullover Tie Dye Graphic Hoodie Long Sleeve Casual Sweatshirts with Pocket</p>
+                    <p><b>50$</b></p>
+                    <button onclick="addToCart(2)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/menshorts_.jpg" alt="cat3">
+                    <p>Men's Corduroy Shorts Casual Elastic Waist Drawstring Shorts for Men Summer Beach Shorts Loose Fit</p>
+                    <p><b>35$</b></p>
+                    <button onclick="addToCart(3)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/nike-pants_.jpg" alt="cat4">
+                    <p>Nike Men's Sportswear Open Hem Club Pants</p>
+                    <p><b>70$</b></p>
+                    <button onclick="addToCart(4)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/addidas-samba_.jpg" alt="cat5">
+                    <p>adidas Men's Vl Court 3.0 Sneaker</p>
+                    <p><b>90$</b></p>
+                    <button onclick="addToCart(5)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/adidas samba-og_.jpg" alt="cat6">
+                    <p>adidas Samba OG Big Kid Sneakers</p>
+                    <p><b>120$</b></p>
+                    <button onclick="addToCart(6)">Buy</button>
+                </div>
+            </div>
+            <div class="category-button" id="womenBtn">
+                <img src="/imgs/girl.jpeg" alt="Women Icon">
+                <h3>Women</h3>
+                <button>Show Women Category</button>
+            </div>
+            <div id="womenCategory" class="category">
+                <h2>Women's Category</h2>
+                <div class="product">
+                    <img src="/imgs/women-1_.jpg" alt="wom1">
+                    <p>LILLUSORY 2 Piece Outfits for Women Casual Dressy Knit Lounge Sets Cap Sleeve High Low Top and Elastic Waisted Pleated Pants</p>
+                    <p><b>100$</b></p>
+                    <button onclick="addToCart(7)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/women2_.jpg" alt="wom2">
+                    <p>Darong Women's 2 Piece Outfits Lounge Sets Ruched Short Sleeve Tops and High Waisted Wide Leg Pants Tracksuit Sets</p>
+                    <p><b>80$</b></p>
+                    <button onclick="addToCart(8)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/women3_.jpg" alt="wom3">
+                    <p>ANRABESS Women's Oversized T Shirts Short Sleeve Crewneck Summer Tops Casual Loose Basic Tee Shirts 2024 Trendy Clothes</p>
+                    <p><b>35$</b></p>
+                    <button onclick="addToCart(9)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/women4_.jpg" alt="wom4">
+                    <p>Langwyqu Womens Oversized Tshirts Casual Summer Tops Short Sleeve Loose Fit Tunic T Shirts</p>
+                    <p><b>35$</b></p>
+                    <button onclick="addToCart(10)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/womenfoot1_.jpg" alt="wom5">
+                    <p>Taos Footwear Women's Xcellent 2 Wedge Sandal</p>
+                    <p><b>50$</b></p>
+                    <button onclick="addToCart(11)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/womenfoot2_.jpg" alt="wom6">
+                    <p>Nike Dunk Low Women's Shoe</p>
+                    <p><b>90$</b></p>
+                    <button onclick="addToCart(12)">Buy</button>
+                </div>
+            </div>
+            <div class="category-button" id="kidsBtn">
+                <img src="/imgs/kid (1).jpeg" alt="Kids Icon">
+                <h3>Kids</h3>
+                <button>Show Kids Category</button>
+            </div>
+            <div id="kidsCategory" class="category">
+                <h2>Kids' Category</h2>
+                <div class="product">
+                    <img src="/imgs/kids1_.jpg" alt="kid1">
+                    <p>The Children's Place baby boys Geometric Dino Short Sleeve Graphic T shirt</p>
+                    <p><b>30$</b></p>
+                    <button onclick="addToCart(14)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/kid2_.jpg" alt="kid2">
+                    <p>The Children's Place unisex baby Short Sleeve Graphic T Shirt</p>
+                    <p><b>25$</b></p>
+                    <button onclick="addToCart(15)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/kid3_.jpg" alt="kid3">
+                    <p>The Children's Place Boys' Short Sleeve Colorblock T-Shirt</p>
+                    <p><b>35$</b></p>
+                    <button onclick="addToCart(16)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/kid4_.jpg" alt="kid4">
+                    <p>Leveret Kids & Toddler Boys Pants Girls Legging Pants with Drawstrings (2-14 Years) Variety of Colors</p>
+                    <p><b>30$</b></p>
+                    <button onclick="addToCart(17)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/kid5_.jpg" alt="kid5">
+                    <p>The Children's Place Baby Boys' Sports Long Sleeve Graphic T-Shirts</p>
+                    <p><b>35$</b></p>
+                    <button onclick="addToCart(18)">Buy</button>
+                </div>
+                <div class="product">
+                    <img src="/imgs/kid6_.jpg" alt="kid6">
+                    <p>Jingle Bongala Kids Youth Waterproof Hiking Pants Fleece Lined Elastic Waist for Boys Girls Snow Pants Insulated</p>
+                    <p><b>30$</b></p>
+                    <button onclick="addToCart(19)">Buy</button>
+                </div>
+            </div>
+            <div class="button-container">
+                <a href="cart.html" id="btn-buy" target="_blank">Buy all</a>
+            </div>
+        </div>
+    </div>
+    <script src="demo.js"></script>
+</body>
+</html>
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/abdulla-ismaeel-356818215/"target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.google.com/"><i class="fa fa-google"target="_blank"></i></a>
+                <a href="https://x.com/home"><i class="fa fa-twitter"target="_blank"></i></a>
+        </div>
+        <div class="row">
+            <ul>
+                <li><a href="/contactus.html">Contact us</a></li>
+                <li><a href="#header2">Our Services</a></li>
+                <li><a href="/aboutus.html">About us</a></li>
+                <li><a href="#">Career</a></li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <p>GLOWLINE Copyright © 2024  All rights reserved </p>
+        </div>
+        </div>
+    </footer>
+    <script src="/demo3.js"></script>
+</body>
+</html>
